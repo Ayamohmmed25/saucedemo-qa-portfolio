@@ -109,7 +109,36 @@ Checkout data: First name `Aya`, Last name `Mohammed`, Postal code `11118`.
 
 ---
 
-## 8. Defect Report Template
+## 8. Test Execution Log
+
+**Executed by:** Aya Mohammed
+**Date:** 2026-10-16
+**Environment:** Chrome (latest), Windows 11
+
+**Status values:** Pass = actual result matches expected. Fail = it does not match. Blocked = could not be executed. Not Run = not executed yet.
+
+| ID | Expected Result | Actual Result | Status | Bug ID |
+|---|---|---|---|---|
+| TC-LOGIN-001 | Redirected to inventory page, products displayed | | Not Run | |
+| TC-LOGIN-002 | Error: "Username and password do not match any user in this service" | | Not Run | |
+| TC-LOGIN-003 | Error: "Sorry, this user has been locked out." | | Not Run | |
+| TC-LOGIN-004 | Error: "Username is required" | | Not Run | |
+| TC-LOGIN-005 | Error: "Password is required" | | Not Run | |
+| TC-LOGIN-006 | Redirected to login page with an access error | | Not Run | |
+| TC-INV-001 | 6 products displayed with image, name, price and button | | Not Run | |
+| TC-INV-002 | Products sorted by price, ascending | | Not Run | |
+| TC-INV-003 | Details page shows the same name and price | | Not Run | |
+| TC-CART-001 | Badge shows 1, button changes to Remove | | Not Run | |
+| TC-CART-002 | Badge shows 2, both products in the cart | | Not Run | |
+| TC-CART-003 | Product removed, badge disappears | | Not Run | |
+| TC-CHK-001 | "Thank you for your order!" displayed | | Not Run | |
+| TC-CHK-002 | Error: "First Name is required" | | Not Run | |
+| TC-CHK-003 | Error: "Postal Code is required" | | Not Run | |
+| TC-OUT-001 | Returned to login page, fields empty | | Not Run | |
+
+---
+
+## 9. Defect Report Template
 
 Use this format when a test fails.
 
